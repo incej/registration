@@ -15,58 +15,58 @@
 <div>
 	<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeEdrMVVv2Zjcw0o6v4ygOkkL1K_-D6VT-uWS9EYwv-PI7xkQ/formResponse" method="post" name="form" onsubmit="return validate()">
 		<h1 class="contact-title"><center>参加登録フォーム</center></h1>
-		<p><center>以下の項目を<span style="color:red"><b>全て</b></span>ご入力の上、「送信」ボタンをクリックしてください。</center></p>
+		<p><center>以下の必須項目を全てご入力の上、「送信」ボタンをクリックしてください。</center></p>
 		<div>
       <div>
-				<p><b>お名前　</b><span style="color:gray">(姓名間のスペースは不要です)</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>お名前　</b><span style="color:gray">(姓名間のスペースは不要です)</span></p>
 			</div>
 			<div>
 				<input type="text" name="entry.753175838" placeholder="例）騒音太郎" value="" required>
 			</div>
 			<div>
-				<p><b>ふりがな　</b><span style="color:gray">(姓名間のスペースは不要です)</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>ふりがな　</b><span style="color:gray">(姓名間のスペースは不要です)</span></p>
 			</div>
 			<div>
 				<input type="text" name="entry.1325106526" placeholder="例）そうおんたろう" value="" required>
 			</div>
 			<div>
-				<p><b>所属　</b><span style="color:gray">(法人名は不要です、略称を使用してください)</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>所属　</b><span style="color:gray">(法人名は不要です、略称を使用してください)</span></p>
 			</div>
 			<div>
 				<input type="text" name="entry.845787642" placeholder="例）騒音制御工学会" value="" required>
 			</div>
 			<div>
-				<p><b>メールアドレス</b></p>
+				<p><span style="color:red"><b>※必須</b></span><b>メールアドレス</b></p>
 			</div>
 			<div>
 				<input type="email" id="email1" placeholder="例）office@ince-j.or.jp" style=”ime-mode:disabled;”　oncopy="return false" onpaste="return false" oncontextmenu="return false" value="" required>
 			</div>
 			<div>
-				<p><b>メールアドレス(再確認)　</b><span style="color:gray">コピー&ペーストができません</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>メールアドレス(再確認)　</b><span style="color:gray">コピー&ペーストができません</span></p>
 			</div>
 			<div>
 				<input type="email" name="entry.252309631" id="email2" placeholder="例）office@ince-j.or.jp" oncopy="return false" onpaste="return false" oncontextmenu="return false" autocomplete="off" style=”ime-mode:disabled;” oninput="CheckEmail_2(this)" value="" required>
 			</div>
 			<div>
-				<p><b>電話番号　</b><span style="color:gray">ハイフンは不要です、入力できません</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>電話番号　</b><span style="color:gray">ハイフンは不要です、認識しません</span></p>
 			</div>
 			<div>
 				<input type="tel" name="entry.206047643" style=”ime-mode:disabled;” placeholder="例）0352139797" value="" required>
 			</div>
 			<div>
-				<p><b>資料送付先(郵便番号)　</b><span style="color:gray">ハイフンは不要です、入力できません</span></p>
+				<p><span style="color:red"><b>※必須</b></span><b>資料送付先(郵便番号)　</b><span style="color:gray">ハイフンは不要です、認識しません</span></p>
 			</div>
 			<div>
 				<input type="tel" name="entry.1955965000" style=”ime-mode:disabled;” placeholder="例）1020083" pattern="\d{7}" onKeyUp="AjaxZip3.zip2addr(this,'','entry.876616172','entry.876616172');" value="" required>
 			</div>
 			<div>
-				<p><b>資料送付先(住所)</b></p>
+				<p><span style="color:red"><b>※必須</b></span><b>資料送付先(住所)</b></p>
 			</div>
 			<div>
 				<input type="text" name="entry.876616172" placeholder="例）東京都千代田区麹町3-12-6" value="" required>
 			</div>
 			<div>
-				<p><b>会員区分</b></p>
+				<p><span style="color:red"><b>※必須</b></span><b>会員区分</b></p>
 			</div>
 			<div>
 				<select name="entry.1585838379" required>
@@ -89,7 +89,7 @@
 			</div>
 
 		</div>
-			<p><b>※発表中の講演および質疑応答を実行委員会が録画・録音し、発表会参加者に対して期間限定でストリーミング配信することを承諾してください。</b></p>
+			<p><span style="color:red"><b>※必須</b></span><b>※発表中の講演および質疑応答を実行委員会が録画・録音し、発表会参加者に対して期間限定でストリーミング配信することを承諾してください。</b></p>
 			<input type="checkbox" name="q[]" value="" required checked="checked"> ストリーミング配信を承諾する<br>
 		</div>
 		<button type="submit">送信</button>
